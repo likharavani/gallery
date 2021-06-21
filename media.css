@@ -1,0 +1,36 @@
+@media only screen and (max-width:768px)
+{
+    html{
+        font-size: 80%;
+    }
+    .list {
+        display: none;
+    }
+    .gal1{
+        flex-wrap: wrap;
+    }
+    .info{
+        width:100%;
+    }
+    .icon
+    {
+        flex-wrap: wrap;
+    }
+    .information{
+        width:100%;
+    }
+    .nav-text{
+        width:80%;   
+        text-align: center;
+    }
+}
+@media only screen and (max-width:650px){
+   .nav-text{
+       margin-top:30%;
+   }
+   .navbar{
+       justify-content: space-between;
+       padding-left:2rem ;
+       padding-right: 2rem;
+   }
+}
