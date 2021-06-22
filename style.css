@@ -9,6 +9,12 @@
 html{
     font-size: 100%;
 }
+.togglearea{
+    display: none;
+}
+#toggle{
+    display: none;
+}
 .header{
     background:linear-gradient(rgba(0,0,0,0.5 ),rgba(0, 0, 0,0.6 )),url('banner1.jpg');
     width:100%;

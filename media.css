@@ -23,6 +23,37 @@
         width:80%;   
         text-align: center;
     }
+    .togglearea{
+        display: block;
+        right:2rem;
+        position: fixed;
+    }
+    #toggle:checked + .list{
+        display: flex;   
+    }
+    .social{
+        display: none;
+    }
+    .list ul{
+        left:50%;
+        position: fixed;
+        top:50px;
+        width:100%;
+        box-shadow: 0px 3px 10px grey;
+        height:50vh;
+        border:2px solid red;
+        background-color: white;
+        color:black;
+        transform: translateX(-50%);
+        z-index: 1000;
+        flex-direction: column;
+        position: absolute;
+        opacity: 1;
+        transition: 0.2s linear;
+    }
+    #toggle:checked ~  .togglearea label::before{
+content:'&#10006;';
+    }
 }
 @media only screen and (max-width:650px){
    .nav-text{
