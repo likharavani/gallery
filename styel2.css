@@ -1,0 +1,54 @@
+#form{
+    position: absolute;
+    top:20%;
+    text-align: center;
+  
+}
+.form-row
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 4rem;
+    border:2px solid red;
+}
+.forms{
+    width:50%;
+    margin: auto;
+border:2px solid green;
+}
+.map{
+    width:50%;
+   
+    border: 2px solid rebeccapurple;
+}
+.map iframe{
+    width:80%;
+}
+#form h2{
+    font-size: 2.1rem;
+    margin:1rem;
+}
+#forms p{
+    line-height: 1.8rem;
+    margin:1rem;
+}
+.forms form{
+    width:90%;
+    border: 2px solid red;
+  margin: auto;
+}
+.forms input,
+.forms textarea{
+width:100%;
+padding:0.4rem;
+}
+.btn1{
+    width:100%;
+    background-color: tomato;
+    color:white;
+}
+.form-item{
+    margin:1rem;
+}
