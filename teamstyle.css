@@ -1,0 +1,42 @@
+.box-image img{
+  width:200px;
+  height:200px;
+  border-radius: 100px;
+  
+}
+.box-image{
+    
+    border-radius: 100px;
+}
+.box-item{
+   
+    display:flex;
+    width:330px;
+    box-shadow: 0px 3px 10px rgba(0 0 0 /  20%);
+    padding:1rem;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1rem;
+    align-items:center;
+    transition: all 0.3s ease;
+}
+.box-item:hover{
+    transform: translateY(-15px);
+}
+.box-container{
+    display: flex;
+
+    width:100%;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-bottom: 3rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.btn2{
+    background-color: tomato;
+    color: white;
+    margin:0.5rem;
+    border-radius:6px ;
+}
