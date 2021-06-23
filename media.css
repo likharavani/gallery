@@ -75,7 +75,7 @@
     .forms,
     .map{
         width:100%;
-        margin:auto;
+        margin:1rem auto;
     }
     #form{
         width:100%;
@@ -100,6 +100,9 @@
 @media only screen and (max-width:400px){
 footer{
     top: 220% !important;;
+}
+#form{
+    margin-top: 10rem;
 }
 }
 @media only screen and (max-width:1000px){
