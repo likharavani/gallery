@@ -67,7 +67,18 @@
         flex-direction: column;
     }
     footer{
-        top:200% !important;
+        top:150% !important;
+    }
+    .form-row{
+        flex-direction: column;
+    }
+    .forms,
+    .map{
+        width:100%;
+        margin:auto;
+    }
+    #form{
+        width:100%;
     }
 }
 @media only screen and (max-width:650px){
