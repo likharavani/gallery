@@ -28,21 +28,18 @@
         width:80%;   
         text-align: center;
     }
-    .togglearea{
+    .menubtn{
         display: block;
         right:2rem;
         position: fixed;
     }
+    #toggle:checked ~ .menubtn i:before{
+       content:"\f00d"; 
+    }
     #toggle:checked + .list{
         display: flex;   
     }
-    #toggle:checked + #new{
-        display: none;
-    }
-    #toggle:checked + #new1{
-        display: block;
-    }
- 
+  
     .social{
         display: none;
     }
