@@ -9,7 +9,9 @@
 html{
     font-size: 100%;
 }
-
+.togglearea{
+    display: none;
+}
 #toggle{
     display: none;
 }
