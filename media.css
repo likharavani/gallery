@@ -74,13 +74,7 @@
         background-color: white;
     }
 
-    .box{
-        width:100%;
-    }
-    .box-item{
-        width:100%;
-        flex-direction: column;
-    }
+  
     footer{
         top:150% !important;
     }
@@ -95,14 +89,7 @@
     #form{
         width:100%;
     }
-    .box-container{
-      
-    flex-direction: column;
-    justify-content: center;
-    }
-    .box-container .box-item{
-        margin-bottom: 1rem ;
-    }
+
 
  
 }
@@ -119,6 +106,13 @@
    .header{
        height:80vh;
    }
+   .box-container{
+    flex-direction: column;
+}
+.box-item{
+    width:100%;
+    flex-direction: column;
+}
    .nav-text{
        top:30%;
    }
@@ -139,6 +133,10 @@ footer{
 .links{
     width:100%;
 }
+.box{
+    width:100%;
+}
+
 }
 @media only screen and (max-width:1000px){
     footer{

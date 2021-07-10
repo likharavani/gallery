@@ -58,7 +58,7 @@ html{
     transition: all 0.3s ease;
 }
 .list ul li a:hover{
-   color:gray;
+    color:gray;
    
 
 }
@@ -244,6 +244,7 @@ margin:1rem;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
+    margin-bottom: 3rem;
 }
 .image img{
     width:150px;
@@ -304,6 +305,7 @@ font-size: 0.9rem;
     text-decoration: none;
     color:white;
     font-size: 0.9rem;
+    cursor: pointer;
 }
 .links li a:hover{
     color: tomato;
