@@ -32,7 +32,9 @@ header{
    position: fixed;
    top:0;
    z-index: 1;
-    justify-content: space-around;
+   justify-content: space-between;
+   padding:0rem 2rem;
+
     align-items: center;
     height:10vh;
     width:100%;
